@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import login from "./images/login.png";
 import { FaEye, FaEyeSlash } from "react-icons/fa"; // Import eye icons
@@ -203,7 +203,7 @@ const Login = () => {
                   </button>
               </form>
               <p className="mt-4 text-gray-400">
-                Don't have an account?{" "}
+                Don&apos;t have an account?{" "}
                 <button
                   onClick={handleToggle}
                   className="text-blue-500 hover:underline"

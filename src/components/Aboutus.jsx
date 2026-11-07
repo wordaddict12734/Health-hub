@@ -1,4 +1,3 @@
-import React from "react";
 import Doctors from "./images/illlustration.png";
 const Aboutus = () => {
     const styles = {

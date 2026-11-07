@@ -1,4 +1,4 @@
-import React from "react";
+
 import logos from "./images/Ca-removebg-preview (1).png";
 import { Link } from "react-router-dom";
 const Navbar = () => {
